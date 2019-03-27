@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>inidividualDemetris</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <script>
+    function myFunction() {
+    alert("Welcome to Demetris's Webpage!");
+    }
+    </script>
+    
+    <script>
+        function aFunction() {
+        document.getElementById("demo").innerHTML = "Demetris Demetriades.Individual Website! ";
+    }
+    </script>
+    <script>
+        function bFunction() {
+        document.getElementById("demo").innerHTML = "Press the button below and see what happens!!! ";
+    }
+    </script>
+    
+    <script>
+        function cFunction() {
+        var x,y;
+        x=5;y=10;
+        z=x*y;  
+            document.getElementById("demo1").innerHTML = "5*10="+z;
+        }
+
+        function dFunction() {
+        document.getElementById("demo1").innerHTML = "5*10 =" ;
+        }
+    </script>
+    
+
+    
+    <body>
+        <header id="header">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#evid">Screenshots</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <div class="section-inner">
+                    <h1>Individual Website</h1>
+                    <p>This is a sample paragraph to be shown as a concept for the individual website.</p>
+                    <button onclick="myFunction()">Welcome!</button>
+                </div>
+            </section>
+            <section id="about">
+                <div class="section-inner">
+                    <h2>Javascript examples</h2>
+                    <p>By adding javascript code into the website you can achieve many usuful things like button features, calculations and many more</p>
+                    <p id="demo" >Press the button below and see what happens!!!</p>
+                    <button type="button" onclick="aFunction()">Press</button>
+                    <button type="button" onclick="bFunction()">Clear</button>
+                    <p>With Javascript you can also calculate math equations in the website like is presented below.</p>
+                    <p>Press the Calculate Button for evidence.</p>
+                    <p id="demo1"> 5*10 = </p>
+                    <button type="button" onclick="cFunction()">calculate</button>
+                    <button type="button" onclick="dFunction()">clear</button>
+                    
+                </div>
+            </section>
+            <section id="evid">
+                <div class="section-inner">
+                    <h2>About the Website</h2>
+                    <p>Evidence of the Local Host</p>
+                    <img src="local.PNG" >
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
