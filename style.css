@@ -145,11 +145,16 @@ header a {
     font-size: 2em;
 }
 
-#evid img{
-    width: 850px;
+.fir{
     position: absolute;
-    display: block;
-    margin-left:  -10em;
+    padding: 5px;
+    margin-left:  -35em;
     margin-right: 10em;
     
+}
+
+.sec{
+    position: absolute;
+    margin-left: 20em;
+    margin-right: 10em;  
 }
